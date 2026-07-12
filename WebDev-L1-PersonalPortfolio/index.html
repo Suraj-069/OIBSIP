@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suraj Aglave | Computer Engineering Student & Web Developer</title>
+  <meta name="description" content="Personal portfolio of Suraj Aglave, a Computer Engineering student and web developer interested in programming, cybersecurity, databases, and digital solutions." />
+  <meta name="keywords" content="Suraj Aglave, portfolio, web developer, computer engineering student, HTML, CSS, JavaScript, Oasis Infobyte" />
+  <meta name="theme-color" content="#FFFFFF" />
+
+  <!-- Google Fonts: Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo">Suraj<span class="accent-dot">.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta-mobile">
+          <a href="resume.pdf" download class="btn btn-primary btn-small">Download CV</a>
+        </li>
+      </ul>
+
+      <a href="resume.pdf" download class="btn btn-primary btn-small nav-cta-desktop">Download CV</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO SECTION ============ -->
+    <section id="home" class="hero">
+      <div class="blob blob-lavender"></div>
+      <div class="blob blob-blue"></div>
+      <div class="blob blob-mint"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <span class="badge"><span class="badge-dot"></span>👋 HELLO, I'M SURAJ</span>
+
+          <h1 class="hero-heading">
+            Building <span class="gradient-text">Digital Experiences</span> With Code &amp; Creativity.
+          </h1>
+
+          <p class="hero-subtitle">Computer Engineering Student &amp; Web Developer</p>
+
+          <p class="hero-paragraph">
+            I enjoy turning ideas into clean, responsive, and user-friendly digital experiences
+            while continuously exploring modern technologies.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <!-- Add your actual resume.pdf file to the project folder -->
+            <a href="resume.pdf" download class="btn btn-outline">Download Resume</a>
+          </div>
+
+          <div class="availability">
+            <span class="pulse-dot"></span>
+            Open to internships and opportunities
+          </div>
+
+          <div class="hero-socials">
+            <!-- These links must match the Contact section exactly -->
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon-small"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon-small"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/suraj-aglave-b23b68382" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon-small"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter" class="social-icon-small"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="mailto:" class="social-icon-small" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap reveal">
+          <div class="hero-image-glow"></div>
+          <!-- Replace this placeholder profile image with your own photo -->
+          <img
+            src="images/suraj.jpg"
+            alt="Portrait of a young male developer, professional casual style"
+            class="Suraj Aglave"
+            width="400"
+            height="800"
+          />
+
+          <div class="floating-card card-1"><span class="fc-icon">💻</span> Web Developer</div>
+          <div class="floating-card card-2"><span class="fc-icon">🎓</span> Engineering Student</div>
+          <div class="floating-card card-3"><span class="fc-icon">⚡</span> Always Learning</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS SECTION ============ -->
+    <section class="stats-section bg-white">
+      <div class="container">
+        <div class="stats-card reveal">
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">8+</span>
+            <span class="stat-label">Technologies Learned</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Internships / Programs</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Passion for Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section id="about" class="section bg-blue">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">ABOUT ME</span>
+          <h2 class="section-heading">Curious Mind. Creative Developer.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-wrap reveal">
+            <div class="about-deco"></div>
+            <!-- Replace this placeholder image with your own image later -->
+            <img
+              src="https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&w=700&q=80"
+              alt="Student workspace with a laptop and coding setup"
+              class="about-image"
+            />
+          </div>
+
+          <div class="about-content reveal">
+            <p>
+              Hello! I'm Suraj, a Computer Engineering student with a strong interest in web
+              development, programming, cybersecurity, databases, and problem-solving.
+            </p>
+            <p>
+              I enjoy creating clean and responsive websites while learning how technology can
+              solve real-world problems. My journey involves continuously improving my coding
+              skills, exploring new tools, and working on practical projects.
+            </p>
+            <p>
+              I believe good technology should not only work well but should also be simple,
+              accessible, and enjoyable to use.
+            </p>
+
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="info-label"><i class="fa-solid fa-user"></i> Name</span>
+                <span class="info-value">Suraj Aglave</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa-solid fa-location-dot"></i> Location</span>
+                <span class="info-value">Pune, Maharashtra</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa-solid fa-graduation-cap"></i> Education</span>
+                <span class="info-value">B.Tech Computer Engineering</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa-solid fa-code"></i> Interest</span>
+                <span class="info-value">Web Development &amp; Technology</span>
+              </div>
+            </div>
+
+            <a href="resume.pdf" download class="btn btn-primary">
+              <i class="fa-solid fa-download"></i> Download My Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION SECTION ============ -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">MY JOURNEY</span>
+          <h2 class="section-heading">Education</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>B.Tech in Computer Engineering</h3>
+              <p class="timeline-org">MIT Academy of Engineering &middot; Pune, Maharashtra</p>
+              <p>
+                Currently pursuing Computer Engineering with interests in software development,
+                web technologies, cybersecurity, databases, and practical problem-solving.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Higher Secondary Education</h3>
+              <p class="timeline-org">Science &amp; Technology Stream</p>
+              <p>
+                Completed higher secondary education with a focus on science and technology.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section id="skills" class="section bg-lavender">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">MY SKILLS</span>
+          <h2 class="section-heading">Technologies I Work With</h2>
+        </div>
+
+        <div class="skills-wrap reveal">
+          <div class="skill-category">
+            <h3 class="skill-category-title">Frontend</h3>
+            <div class="skill-grid">
+              <div class="skill-chip"><span class="skill-icon icon-blue"><i class="fa-brands fa-html5"></i></span><span>HTML5</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-lavender"><i class="fa-brands fa-css3-alt"></i></span><span>CSS3</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-mint"><i class="fa-brands fa-js"></i></span><span>JavaScript</span></div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Programming</h3>
+            <div class="skill-grid">
+              <div class="skill-chip"><span class="skill-icon icon-peach"><i class="fa-solid fa-c"></i></span><span>C</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-blue"><i class="fa-solid fa-code"></i></span><span>C++</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-lavender"><i class="fa-brands fa-java"></i></span><span>Java</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-mint"><i class="fa-brands fa-python"></i></span><span>Python</span></div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Database</h3>
+            <div class="skill-grid">
+              <div class="skill-chip"><span class="skill-icon icon-peach"><i class="fa-solid fa-database"></i></span><span>MySQL</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-blue"><i class="fa-solid fa-server"></i></span><span>Oracle SQL</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-mint"><i class="fa-solid fa-leaf"></i></span><span>MongoDB</span></div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Tools &amp; Technologies</h3>
+            <div class="skill-grid">
+              <div class="skill-chip"><span class="skill-icon icon-lavender"><i class="fa-brands fa-git-alt"></i></span><span>Git</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-blue"><i class="fa-brands fa-github"></i></span><span>GitHub</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-peach"><i class="fa-solid fa-code"></i></span><span>VS Code</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-mint"><i class="fa-solid fa-fire"></i></span><span>Firebase</span></div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Technical Interests</h3>
+            <div class="skill-grid">
+              <div class="skill-chip"><span class="skill-icon icon-blue"><i class="fa-solid fa-shield-halved"></i></span><span>Cybersecurity</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-lavender"><i class="fa-solid fa-diagram-project"></i></span><span>Data Structures</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-mint"><i class="fa-solid fa-database"></i></span><span>DBMS</span></div>
+              <div class="skill-chip"><span class="skill-icon icon-peach"><i class="fa-solid fa-pen-ruler"></i></span><span>UI/UX Design</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHAT I DO SECTION ============ -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">WHAT I DO</span>
+          <h2 class="section-heading">Turning Ideas Into Digital Solutions</h2>
+        </div>
+
+        <div class="cards-grid-4 reveal">
+          <div class="feature-card">
+            <div class="feature-icon icon-blue">💻</div>
+            <h3>Web Development</h3>
+            <p>Building clean, responsive, and user-friendly websites using modern web technologies.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon icon-lavender">🎨</div>
+            <h3>UI Design</h3>
+            <p>Creating simple and visually balanced interfaces focused on usability and clarity.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon icon-mint">⚙️</div>
+            <h3>Programming</h3>
+            <p>Solving problems and building logical solutions using multiple programming languages.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon icon-peach">🔐</div>
+            <h3>Cybersecurity Learning</h3>
+            <p>Exploring cybersecurity concepts, network security, and safer digital practices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PROJECTS SECTION ============ -->
+    <section id="projects" class="section bg-offwhite">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">MY WORK</span>
+          <h2 class="section-heading">Featured Projects</h2>
+          <p class="section-subtitle">A selection of projects that reflect my learning, creativity, and technical interests.</p>
+        </div>
+
+        <div class="projects-grid reveal">
+
+          <!-- PROJECT 1: HDIMS -->
+          <article class="project-card">
+            <div class="project-image-wrap">
+              <!-- Replace with actual HDIMS project screenshot later -->
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80" alt="Healthcare data dashboard on a screen" class="project-image" />
+              <span class="project-category">Web App</span>
+            </div>
+            <div class="project-body">
+              <h3>HDIMS</h3>
+              <p class="project-fullname">Health Data Information &amp; Management System</p>
+              <p>A digital platform designed to help users organize, manage, and access health records in a structured and user-friendly way.</p>
+              <div class="tech-tags">
+                <span class="tech-tag tag-peach">HTML</span>
+                <span class="tech-tag tag-blue">CSS</span>
+                <span class="tech-tag tag-yellow">JavaScript</span>
+                <span class="tech-tag tag-amber">Firebase</span>
+              </div>
+              <div class="project-buttons">
+                <!-- Replace with actual project URL -->
+                <a href="#" class="btn btn-outline btn-small">View Project</a>
+                <!-- Replace with actual project URL -->
+                <a href="#" class="btn btn-ghost btn-small"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: AgriGrow -->
+          <article class="project-card">
+            <div class="project-image-wrap">
+              <!-- Replace with actual AgriGrow screenshot later -->
+              <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=800&q=80" alt="Green farm field representing smart agriculture" class="project-image" />
+              <span class="project-category">Landing Page</span>
+            </div>
+            <div class="project-body">
+              <h3>AgriGrow</h3>
+              <p class="project-fullname">Smart Agriculture Landing Page</p>
+              <p>A clean and responsive agriculture landing page focused on smarter farming, crop awareness, and sustainable agricultural practices.</p>
+              <div class="tech-tags">
+                <span class="tech-tag tag-peach">HTML</span>
+                <span class="tech-tag tag-blue">CSS</span>
+                <span class="tech-tag tag-lavender">Responsive Design</span>
+              </div>
+              <div class="project-buttons">
+                <!-- Replace with actual project URL -->
+                <a href="#" class="btn btn-outline btn-small">Live Demo</a>
+                <!-- Replace with actual project URL -->
+                <a href="#" class="btn btn-ghost btn-small"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: SnackCycle -->
+          <article class="project-card">
+            <div class="project-image-wrap">
+              <!-- Replace with actual SnackCycle project image later -->
+              <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80" alt="Healthy snacks in reusable eco-friendly jars" class="project-image" />
+              <span class="project-category">Concept / UI</span>
+            </div>
+            <div class="project-body">
+              <h3>SnackCycle</h3>
+              <p class="project-fullname">Sustainable Snack Concept</p>
+              <p>A sustainable healthy snack concept based on reusable jars, refill discounts, and eco-friendly packaging.</p>
+              <div class="tech-tags">
+                <span class="tech-tag tag-lavender">UI Design</span>
+                <span class="tech-tag tag-mint">Business Model</span>
+                <span class="tech-tag tag-blue">Prototyping</span>
+              </div>
+              <div class="project-buttons">
+                <!-- Replace with actual project URL -->
+                <a href="#" class="btn btn-outline btn-small">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Student Portfolio -->
+          <article class="project-card">
+            <div class="project-image-wrap">
+              <!-- Replace with actual portfolio screenshot later -->
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Laptop showing code, representing the portfolio project" class="project-image" />
+              <span class="project-category">Website</span>
+            </div>
+            <div class="project-body">
+              <h3>Student Portfolio</h3>
+              <p class="project-fullname">Personal Portfolio Website</p>
+              <p>A modern responsive personal portfolio website designed to showcase skills, projects, education, experience, and contact information.</p>
+              <div class="tech-tags">
+                <span class="tech-tag tag-peach">HTML</span>
+                <span class="tech-tag tag-blue">CSS</span>
+                <span class="tech-tag tag-yellow">JavaScript</span>
+              </div>
+              <div class="project-buttons">
+                <!-- Replace with actual project URL -->
+                <a href="#" class="btn btn-outline btn-small">Live Demo</a>
+                <!-- Replace with actual project URL -->
+                <a href="#" class="btn btn-ghost btn-small">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- ============ MORE PROJECTS SECTION ============ -->
+        <div class="more-projects reveal">
+          <h3 class="more-projects-title">More Projects</h3>
+          <div class="cards-grid-3">
+            <div class="mini-project-card">
+              <div class="mini-icon-wrap icon-blue"><i class="fa-solid fa-calculator"></i></div>
+              <h4>Calculator App</h4>
+              <p>A simple calculator interface for basic arithmetic operations.</p>
+              <span class="mini-tech">HTML, CSS, JavaScript</span>
+            </div>
+            <div class="mini-project-card">
+              <div class="mini-icon-wrap icon-lavender"><i class="fa-solid fa-right-to-bracket"></i></div>
+              <h4>Login Page UI</h4>
+              <p>A clean and responsive authentication interface design.</p>
+              <span class="mini-tech">HTML, CSS</span>
+            </div>
+            <div class="mini-project-card">
+              <div class="mini-icon-wrap icon-mint"><i class="fa-solid fa-database"></i></div>
+              <h4>Database Management Practice</h4>
+              <p>SQL-based practice projects exploring database operations and structured data.</p>
+              <span class="mini-tech">MySQL, Oracle SQL</span>
+            </div>
+          </div>
+          <div class="view-all-wrap">
+            <!-- Replace with actual link to a full projects page or GitHub profile -->
+            <a href="#" class="btn btn-outline">View All Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE SECTION ============ -->
+    <section id="experience" class="section bg-mint">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">EXPERIENCE</span>
+          <h2 class="section-heading">My Learning Journey</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Cybersecurity Virtual Internship</h3>
+              <p class="timeline-org">Cisco Networking Academy</p>
+              <p>
+                Completed a structured virtual learning experience focused on cybersecurity
+                fundamentals, networking concepts, digital safety, and security awareness.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag tag-blue">Cybersecurity</span>
+                <span class="tech-tag tag-lavender">Networking</span>
+                <span class="tech-tag tag-mint">Security Fundamentals</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Web Development Internship Tasks</h3>
+              <p class="timeline-org">Oasis Infobyte</p>
+              <p>
+                Worked on beginner-friendly web development projects focused on HTML, CSS,
+                responsive layouts, landing pages, and portfolio design.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag tag-peach">HTML</span>
+                <span class="tech-tag tag-blue">CSS</span>
+                <span class="tech-tag tag-lavender">Responsive Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATES SECTION ============ -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">ACHIEVEMENTS</span>
+          <h2 class="section-heading">Certificates &amp; Learning</h2>
+        </div>
+
+         <div class="cards-grid-3 reveal">
+          <div class="cert-card">
+            <!-- Replace with your actual certificate image -->
+            <img src="images/cert-cybersecurity.jpg" alt="Cybersecurity Learning certificate from Cisco Networking Academy" class="cert-image" />
+            <h3>Cybersecurity Learning</h3>
+            <p>Cisco Networking Academy</p>
+          </div>
+          <div class="cert-card">
+            <!-- Replace with your actual certificate image -->
+            <img src="images/cert-webdev.jpg" alt="Web Development certificate from Oasis Infobyte" class="cert-image" />
+            <h3>Web Development</h3>
+            <p>Oasis Infobyte</p>
+          </div>
+          <div class="cert-card">
+            <!-- Replace with your actual certificate image -->
+            <img src="images/cert-programming.jpg" alt="Programming and Technical Learning certificate" class="cert-image" />
+            <h3>Programming &amp; Technical Learning</h3>
+            <p>Various Learning Platforms</p>
+          </div>
+          <div class="cert-card">
+            <!-- Replace with your actual certificate image -->
+            <img src="images/Claued 101.jpg" alt="Web Development certificate from Oasis Infobyte" class="cert-image" />
+            <h3>Claued 101</h3>
+            <p>Oasis Infobyte</p>
+          </div>
+          <div class="cert-card">
+            <!-- Replace with your actual certificate image -->
+            <img src="images/AI Fluency__Framework & Foundation_page.jpg" alt="Web Development certificate from Oasis Infobyte" class="cert-image" />
+            <h3>AI Fluency__Framework & Foundation_page</h3>
+            <p>Oasis Infobyte</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INTERESTS SECTION ============ -->
+    <section class="section bg-lavender">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">BEYOND CODE</span>
+          <h2 class="section-heading">Things I'm Interested In</h2>
+        </div>
+
+        <div class="cards-grid-4 reveal">
+          <div class="feature-card compact">
+            <div class="feature-icon icon-blue">💻</div>
+            <h3>Technology</h3>
+            <p>Exploring new tools, digital products, and emerging technologies.</p>
+          </div>
+          <div class="feature-card compact">
+            <div class="feature-icon icon-lavender">🔐</div>
+            <h3>Cybersecurity</h3>
+            <p>Learning about networks, digital safety, and security concepts.</p>
+          </div>
+          <div class="feature-card compact">
+            <div class="feature-icon icon-peach">📈</div>
+            <h3>Financial Markets</h3>
+            <p>Interested in understanding market behavior, analysis, and global financial trends.</p>
+          </div>
+          <div class="feature-card compact">
+            <div class="feature-icon icon-mint">🌱</div>
+            <h3>Agriculture Technology</h3>
+            <p>Interested in how technology can support farmers and improve agricultural systems.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MY APPROACH SECTION ============ -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">MY APPROACH</span>
+          <h2 class="section-heading">How I Like to Work</h2>
+        </div>
+
+        <div class="cards-grid-3 reveal">
+          <div class="approach-card">
+            <i class="fa-solid fa-arrow-trend-up approach-icon"></i>
+            <h3>Keep Learning</h3>
+            <p>Technology changes quickly, so I focus on continuously improving my skills.</p>
+          </div>
+          <div class="approach-card">
+            <i class="fa-solid fa-hammer approach-icon"></i>
+            <h3>Build Practically</h3>
+            <p>I enjoy learning through real projects and hands-on problem-solving.</p>
+          </div>
+          <div class="approach-card">
+            <i class="fa-solid fa-feather approach-icon"></i>
+            <h3>Keep It Simple</h3>
+            <p>I believe good solutions should be clear, useful, and easy to understand.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESUME CTA SECTION ============ -->
+    <section class="resume-cta">
+      <div class="container">
+        <div class="resume-cta-inner reveal">
+          <div class="resume-blob resume-blob-1"></div>
+          <div class="resume-blob resume-blob-2"></div>
+          <i class="fa-solid fa-file-pdf resume-cta-icon"></i>
+          <h2>Want to Know More About My Journey?</h2>
+          <p>Download my resume to explore my education, technical skills, projects, and learning experience.</p>
+          <!-- Place your actual resume.pdf file in the project root folder -->
+          <a href="resume.pdf" download class="btn btn-primary">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section id="contact" class="section bg-offwhite">
+      <div class="container">
+        <div class="section-heading-wrap reveal">
+          <span class="section-label">GET IN TOUCH</span>
+          <h2 class="section-heading">Let's Connect &amp; Build Something Great.</h2>
+          <p class="section-subtitle">
+            I'm always interested in learning opportunities, internships, collaborations, and
+            meaningful technology projects. Feel free to connect with me directly.
+          </p>
+        </div>
+
+        <div class="contact-grid reveal">
+          <div class="contact-left">
+            <div class="contact-meta">
+              <div class="contact-meta-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Pune, Maharashtra, India</span>
+              </div>
+              <div class="contact-meta-item">
+                <span class="pulse-dot small"></span>
+                <span>Open to Opportunities</span>
+              </div>
+            </div>
+
+            <div class="social-cards">
+              <!-- Add my real email address here -->
+              <a href="mailto:" class="social-card">
+                <div class="social-icon icon-mint"><i class="fa-solid fa-envelope"></i></div>
+                <div class="social-info">
+                  <h3>Email</h3>
+                  <p><!-- Add email address -->surajaglave2005@gmail.com</p>
+                </div>
+                <span class="social-arrow">↗</span>
+              </a>
+
+              <!-- Add my real Instagram username or profile URL here -->
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-card">
+                <div class="social-icon icon-lavender"><i class="fa-brands fa-instagram"></i></div>
+                <div class="social-info">
+                  <h3>Instagram</h3>
+                  <p><!-- Add Instagram username --> suraj_aglave_</p>
+                </div>
+                <span class="social-arrow">↗</span>
+              </a>
+
+              <!-- Add my real GitHub username or profile URL here -->
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-card">
+                <div class="social-icon icon-graybllue"><i class="fa-brands fa-github"></i></div>
+                <div class="social-info">
+                  <h3>GitHub</h3>
+                  <p><!-- Add GitHub username --> Suraj-069</p>
+                </div>
+                <span class="social-arrow">↗</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/suraj-aglave-b23b68382" target="_blank" rel="noopener noreferrer" class="social-card">
+                <div class="social-icon icon-blue"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="social-info">
+                  <h3>LinkedIn</h3>
+                  <p>Suraj Aglave</p>
+                </div>
+                <span class="social-arrow">↗</span>
+              </a>
+
+              <!-- Add my real X / Twitter username or profile URL here -->
+              <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="social-card">
+                <div class="social-icon icon-graybllue"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="social-info">
+                  <h3>X / Twitter</h3>
+                  <p><!-- Add X / Twitter username --> @surajaglave1</p>
+                </div>
+                <span class="social-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+              <p class="form-note">Prefer social media? Connect with me directly using the links.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">Suraj<span class="accent-dot">.</span></a>
+        <p>Building, learning, and growing one project at a time.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/suraj-aglave-b23b68382" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="mailto:" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
